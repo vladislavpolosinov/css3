@@ -1,0 +1,81 @@
+body {
+    background-image: linear-gradient(to right, #468cc5, #1B7FDC, #386FBE);
+    color: white;
+}
+header {
+
+   text-align: center;
+   font-size: 25px;
+}
+article {
+    font-size: 22px;
+    border-radius: 15px;
+    border: 5px solid #59A7E8;
+    padding: 5px;
+}
+main h1 {
+    border: 5px solid #59A7E8;
+    background-color: #386FBE;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+}
+section {
+    background-color: #386FBE;
+    border-radius: 15px;
+    border: 1px solid #386FBE;
+
+}
+article:hover {
+    font-size: 25px;
+    border: 5px solid #59A7E8;
+    font-style: italic;
+text-decoration:underline #A64E00;
+}
+div {
+    border: 1px solid #386FBE;
+    background-color: #386FBE;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px;
+ 
+}
+a {
+
+    color: orange;
+    text-decoration: none;
+}
+
+
+img {
+    border: 15px double #062d64;
+margin-top: 10px;
+border-radius: 15px;
+}
+img:hover {
+    transition: transform 2s linear;
+    transform: translateX(525px);
+    box-shadow: 10px 10px 10px 5px #062d64;
+
+}
+.img4 {
+    width: 40%;
+    height: 40%;
+}
+.img3 {
+   width: 40%; 
+}
+div:hover {
+    font-size: 20px;
+    border: 5px solid #59A7E8;
+    font-style: italic;
+text-decoration:underline #A64E00;
+}
+footer a {
+   border: 5px solid #386FBE;
+   background-color: #A64E00;
+   border-radius: 15px;
+   padding: 5px;
+   margin: 15px;
+   color: aqua;
+}
